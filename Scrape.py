@@ -3,7 +3,7 @@ import requests
 import time
 import csv
 import pandas as pd
-Start_Url = "https://en.wikipedia.org/wiki/List_of_brightest_stars_and_other_record_stars"
+Start_Url = "https://en.wikipedia.org/wiki/List_of_brown_dwarfs"
 page = requests.get(Start_Url)
 print(page)
 soup = BeautifulSoup(page.text,'html.parser')
